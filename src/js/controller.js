@@ -64,6 +64,10 @@ const controlAddBookmark = function () {
   recipeView.update(model.state.recipe);
 };
 
+const newFeature = function () {
+  console.log(`Welcome to the app.`);
+};
+
 // link event handlers in the view
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
@@ -72,6 +76,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHanlderClick(controlPagination);
   console.log('initializing...');
+  newFeature();
 };
 
 init();
