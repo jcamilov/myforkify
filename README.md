@@ -1,1 +1,1 @@
-App with recipies.
+Simple app with recipies.
