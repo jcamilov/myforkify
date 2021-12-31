@@ -71,6 +71,7 @@ const init = function () {
   recipeView.addHandlerBookmark(controlAddBookmark);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHanlderClick(controlPagination);
+  console.log(`blah blah blah`);
 };
 
 init();
