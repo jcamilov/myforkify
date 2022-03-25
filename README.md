@@ -2,7 +2,7 @@
 
 ------------
 
-####See it in action **https://aforkify.netlify.app/** 
+See it in action **https://aforkify.netlify.app/** 
 
 ------------
 
